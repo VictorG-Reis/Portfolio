@@ -5,11 +5,9 @@ import Home from './components/pages/Home';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route exact path='/github-page' component={Home} />
-      </Switch>
-    </Router>
+    <>
+      <Home/>
+    </>
   );
 }
 
