@@ -25,12 +25,15 @@ export const theme = {
         },
       },
     },
+    gridTemplateColumns: {
+      16: 'repeat(16, 1fr)',
+    },
   },
   fontFamily: {
     Ubuntu: ['Ubuntu', 'sans-serif'],
   },
   screens: {
-    sm: '394px',
+    sm: '359px',
     md: '768px',
     lg: '1024px',
   },

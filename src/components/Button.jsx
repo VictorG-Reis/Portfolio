@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function Button({ name, to = '#' }) {
   return (
     <a href={to} target="_blank" rel="noreferrer">
-      <button type="button" className="button ">
+      <button type="button" className="button">
         {name}
       </button>
     </a>

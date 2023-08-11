@@ -10,6 +10,25 @@
     @apply font-Ubuntu text-white opacity-0 drop-shadow-sm;
   }
   .button {
-    @apply p-4 w-[12rem] rounded-[20px] border-none bg-gradient-to-r from-[#13161c] to-[#2d2f33] text-white cursor-pointer z-[100] text-base animate-[animaBanner_1s_1s_forwards] opacity-0 font-Ubuntu;
+    @apply lg:p-6 lg:w-[15rem] sm:p-4 sm:w-[12rem] rounded-[20px] border-none bg-gradient-to-r from-[#f1553a] to-[#632217] text-white cursor-pointer z-[100] text-base animate-[animaBanner_1s_1s_forwards] opacity-0 font-Ubuntu;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #616161;
+    border-radius: 5px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
 }
