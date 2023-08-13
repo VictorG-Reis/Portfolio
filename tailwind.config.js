@@ -31,6 +31,7 @@ export const theme = {
   },
   fontFamily: {
     Ubuntu: ['Ubuntu', 'sans-serif'],
+    Bitter: ['Bitter', 'serif'],
   },
   screens: {
     sm: '359px',

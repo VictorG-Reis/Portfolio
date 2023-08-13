@@ -10,7 +10,14 @@
     @apply font-Ubuntu text-white opacity-0 drop-shadow-sm;
   }
   .button {
-    @apply lg:p-6 lg:w-[15rem] sm:p-4 sm:w-[12rem] rounded-[20px] border-none bg-gradient-to-r from-[#f1553a] to-[#632217] text-white cursor-pointer z-[100] text-base animate-[animaBanner_1s_1s_forwards] opacity-0 font-Ubuntu;
+    @apply lg:p-[1.5] lg:w-[12rem] sm:p-4 sm:w-[12rem] rounded-[20px] border-none bg-gradient-to-r from-[#f1553a] to-[#632217] text-white cursor-pointer z-[100] text-base animate-[animaBanner_1s_1s_forwards] opacity-0 font-Ubuntu;
+  }
+
+  .h2-class {
+    @apply flex items-center text-[1.5rem] text-white;
+  }
+  .p-class {
+    @apply font-medium font-Bitter mt-4 text-white drop-shadow-[1px_2px_3px_black;];
   }
   ::-webkit-scrollbar {
     width: 10px;
