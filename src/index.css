@@ -19,6 +19,12 @@
   .p-class {
     @apply font-medium font-Bitter mt-4 text-white drop-shadow-[1px_2px_3px_black;];
   }
+  .knowledge-box {
+    @apply h-[120px] w-[120px] mx-5 bg-white rounded-xl flex justify-center items-center my-10
+  }
+  .hover-transition {
+    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#b3b3b3] duration-300 
+  }
   ::-webkit-scrollbar {
     width: 10px;
   }
