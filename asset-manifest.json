@@ -1,14 +1,23 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.a3e4b77f.css",
-    "main.js": "/github-page/static/js/main.6b8d1527.js",
+    "main.css": "/github-page/static/css/main.2bbb1e78.css",
+    "main.js": "/github-page/static/js/main.cd5b2a9b.js",
     "static/media/bg.jpg": "/github-page/static/media/bg.93183c7b76543dcc319b.jpg",
+    "static/media/icons8-node-js.svg": "/github-page/static/media/icons8-node-js.840f788d9270a416af162334263a5b39.svg",
+    "static/media/icons8-mysql-logo.svg": "/github-page/static/media/icons8-mysql-logo.8988c5b3f4a0c1c2d285a3e84dc07614.svg",
+    "static/media/icons8-redux.svg": "/github-page/static/media/icons8-redux.37aa6ddbd31b9f9d54059a5d9e2cbaaf.svg",
+    "static/media/icons8-react.svg": "/github-page/static/media/icons8-react.494c781b446d6c153b7b75fc16885031.svg",
+    "static/media/icons8-javascript.svg": "/github-page/static/media/icons8-javascript.c6c0a7260c58209b2403b638b2da4ff0.svg",
+    "static/media/icons8-typescript.svg": "/github-page/static/media/icons8-typescript.0667dd32fde65567c85d8c020f45d018.svg",
     "index.html": "/github-page/index.html",
-    "main.a3e4b77f.css.map": "/github-page/static/css/main.a3e4b77f.css.map",
-    "main.6b8d1527.js.map": "/github-page/static/js/main.6b8d1527.js.map"
+    "static/media/icons8-tailwind-css.svg": "/github-page/static/media/icons8-tailwind-css.e6ffa7781ea89d10cede53775d402c03.svg",
+    "static/media/icons8-css.svg": "/github-page/static/media/icons8-css.77617ab627e4242c092c9fadb9f8d7a0.svg",
+    "static/media/icons8-html.svg": "/github-page/static/media/icons8-html.b52d17a157cb57802080c19b3bd0a9c2.svg",
+    "main.2bbb1e78.css.map": "/github-page/static/css/main.2bbb1e78.css.map",
+    "main.cd5b2a9b.js.map": "/github-page/static/js/main.cd5b2a9b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3e4b77f.css",
-    "static/js/main.6b8d1527.js"
+    "static/css/main.2bbb1e78.css",
+    "static/js/main.cd5b2a9b.js"
   ]
 }
