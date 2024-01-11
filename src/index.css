@@ -17,14 +17,21 @@
     @apply flex items-center text-[1.5rem] text-white;
   }
   .p-class {
-    @apply font-medium font-Bitter mt-4 text-white drop-shadow-[1px_2px_3px_black;];
+    @apply font-medium font-Bitter mt-4 text-white drop-shadow-[1px_2px_3px_black];
   }
   .knowledge-box {
-    @apply h-[120px] w-[120px] mx-5 bg-white rounded-xl flex justify-center items-center my-10
+    @apply h-[120px] w-[120px] mx-5 bg-white rounded-xl flex justify-center items-center my-10 hover:bg-[#adadad] transition duration-200;
   }
   .hover-transition {
-    @apply transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#b3b3b3] duration-300 
+    @apply relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-md;
   }
+  .hover-text {
+    @apply justify-center text-center font-semibold opacity-0 absolute top-[12rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity ease-in-out duration-300 text-white font-Ubuntu;
+  }
+  .hover-transition:hover .hover-text {
+    @apply opacity-100 text-white;
+  }
+
   ::-webkit-scrollbar {
     width: 10px;
   }
