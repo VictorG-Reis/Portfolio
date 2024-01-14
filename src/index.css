@@ -28,6 +28,7 @@
   .hover-text {
     @apply justify-center text-center font-semibold opacity-0 absolute top-[12rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity ease-in-out duration-300 text-white font-Ubuntu;
   }
+
   .hover-transition:hover .hover-text {
     @apply opacity-100 text-white;
   }
