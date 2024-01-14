@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.6c5da8fd.css",
-    "main.js": "/github-page/static/js/main.7cee1626.js",
+    "main.css": "/github-page/static/css/main.be57d587.css",
+    "main.js": "/github-page/static/js/main.1fdd3a8e.js",
     "static/media/bg.jpg": "/github-page/static/media/bg.93183c7b76543dcc319b.jpg",
     "static/media/icons8-node-js.svg": "/github-page/static/media/icons8-node-js.840f788d9270a416af162334263a5b39.svg",
     "static/media/icons8-mysql-logo.svg": "/github-page/static/media/icons8-mysql-logo.8988c5b3f4a0c1c2d285a3e84dc07614.svg",
@@ -13,11 +13,11 @@
     "static/media/icons8-tailwind-css.svg": "/github-page/static/media/icons8-tailwind-css.e6ffa7781ea89d10cede53775d402c03.svg",
     "static/media/icons8-css.svg": "/github-page/static/media/icons8-css.77617ab627e4242c092c9fadb9f8d7a0.svg",
     "static/media/icons8-html.svg": "/github-page/static/media/icons8-html.b52d17a157cb57802080c19b3bd0a9c2.svg",
-    "main.6c5da8fd.css.map": "/github-page/static/css/main.6c5da8fd.css.map",
-    "main.7cee1626.js.map": "/github-page/static/js/main.7cee1626.js.map"
+    "main.be57d587.css.map": "/github-page/static/css/main.be57d587.css.map",
+    "main.1fdd3a8e.js.map": "/github-page/static/js/main.1fdd3a8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c5da8fd.css",
-    "static/js/main.7cee1626.js"
+    "static/css/main.be57d587.css",
+    "static/js/main.1fdd3a8e.js"
   ]
 }
