@@ -32,6 +32,10 @@
     @apply opacity-100 text-white;
   }
 
+  .project-box {
+    @apply h-[684.812px] w-[471.744px] rounded-3xl bg-white;
+  }
+
   ::-webkit-scrollbar {
     width: 10px;
   }
