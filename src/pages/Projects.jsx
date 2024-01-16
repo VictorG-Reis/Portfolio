@@ -6,16 +6,19 @@ function Projects() {
     <div className="flex items-center justify-center fullScreen bg-[#13161c]">
       <div className="flex space-x-52 ">
         <div className=" project-box animationBox">
-          <img src={costs} alt="costs project" className="w-[100%] h-[70%] " />
-          <h1 className="h-[10%] text-center text-3xl title-Project">costs</h1>
+          <img src={costs} alt="costs project" className="w-[100%] h-[70%]" />
+          <h1 className="h-[10%] text-center text-3xl title-Project drop-shadow-sm">costs</h1>
           <h2 className="
-          h-[20%]
+          h-[10%]
           text-center
           text-xl
-          subtitle-Project"
+          subtitle-Project
+          drop-shadow-sm
+          "
           >
             planejamento financeiro
           </h2>
+          <button className="p-[1.5] w-[12rem] h-[10%] text-center bg-purple-600" type="button">saiba mais</button>
         </div>
         <div className="project-box animationBox">
           <h1>project 2</h1>
