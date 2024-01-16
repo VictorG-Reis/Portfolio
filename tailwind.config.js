@@ -7,6 +7,9 @@ export const theme = {
     dropShadow: {
       sm: '3px 3px 3px black;',
     },
+    boxShadow: {
+      '3xl': '14px 14px 16px 1px #000;',
+    },
     animation: {
       zoom: 'zoom 20s',
       animaBanner: 'animaBanner 1s 0.5s forwards',

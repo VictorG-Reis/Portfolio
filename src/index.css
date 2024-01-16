@@ -19,6 +19,9 @@
   .p-class {
     @apply font-medium font-Bitter mt-4 text-white drop-shadow-[1px_2px_3px_black];
   }
+
+  /* knowledge page */
+
   .knowledge-box {
     @apply h-[120px] w-[120px] mx-5 bg-white rounded-xl flex justify-center items-center my-10 hover:bg-[#adadad] transition duration-200;
   }
@@ -33,9 +36,35 @@
     @apply opacity-100 text-white;
   }
 
+  /* projects page  */
+
   .project-box {
-    @apply h-[684.812px] w-[471.744px] rounded-3xl bg-white;
+    @apply h-[684.812px] w-[471.744px] rounded-3xl bg-white p-6;
   }
+
+  .animationBox {
+    @apply transition duration-300 ease-in-out transform hover:scale-105;
+  }
+
+  .project-box:hover {
+    @apply bg-[#7e7e7e] shadow-3xl transition duration-300;
+  }
+
+  .title-Project {
+    @apply opacity-0;
+  }
+  .project-box:hover .title-Project {
+    @apply animate-[animaBanner_1s_0.1s_forwards]  text-white;
+  }
+
+  .subtitle-Project {
+    @apply opacity-0;
+  }
+  .project-box:hover .subtitle-Project {
+    @apply animate-[animaBanner_1s_0.3s_forwards]  text-white;
+  }
+
+  /* projects page  */
 
   ::-webkit-scrollbar {
     width: 10px;
