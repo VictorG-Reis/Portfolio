@@ -4,6 +4,9 @@ import costs from '../imgs/savings.svg';
 function Projects() {
   return (
     <div className="flex items-center justify-center fullScreen bg-[#13161c]">
+      <div className="flex-col">
+        <h1 className="text-white">Projetos</h1>
+      </div>
       <div className="flex space-x-52 ">
         <div className=" project-box animationBox">
           <img src={costs} alt="costs project" className="w-[100%] h-[70%]" />
