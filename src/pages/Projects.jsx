@@ -20,9 +20,11 @@ function Projects() {
           </h2>
           <button className="project-card-button " type="button">saiba mais</button>
         </div>
+        {/*
         <div className="project-box animationBox">
           <h1>project 2</h1>
         </div>
+        */}
       </div>
     </div>
 
