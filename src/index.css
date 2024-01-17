@@ -64,6 +64,10 @@
     @apply animate-[animaBanner_1s_0.3s_forwards]  text-white;
   }
 
+  .project-card-button {
+    @apply p-[1.5] w-[12rem] h-[10%] text-center bg-black text-white rounded-[20px] border-none;
+  }
+
   /* projects page  */
 
   ::-webkit-scrollbar {

@@ -18,7 +18,7 @@ function Projects() {
           >
             planejamento financeiro
           </h2>
-          <button className="p-[1.5] w-[12rem] h-[10%] text-center bg-purple-600" type="button">saiba mais</button>
+          <button className="project-card-button " type="button">saiba mais</button>
         </div>
         <div className="project-box animationBox">
           <h1>project 2</h1>
