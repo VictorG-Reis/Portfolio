@@ -69,7 +69,11 @@
   }
 
   .project-card-button {
-    @apply p-[1.5] w-[12rem] h-[10%] text-center bg-black text-white rounded-[20px] border-none;
+    @apply p-[1.5] w-[12rem] h-[10%] text-center bg-black text-white rounded-[20px] border-none opacity-0;
+  }
+
+  .project-box:hover .project-card-button {
+    @apply animate-[animaBanner_1s_0.5s_forwards];
   }
 
   /* projects page  */
