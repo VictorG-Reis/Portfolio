@@ -2,10 +2,10 @@ import React from 'react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 
-function Button({ name, to = '#' }) {
+function Button({ name, to = '#', className }) {
   return (
     <a href={to} target="_blank" rel="noreferrer">
-      <button type="button" className="button">
+      <button type="button" className={className}>
         {name}
       </button>
     </a>
@@ -14,7 +14,9 @@ function Button({ name, to = '#' }) {
 
 Button.propTypes = {
   name: PropTypes.string.isRequired,
-  to: PropTypes.string.isRequired, // The 'to' prop is optional, and should be a string if provided
+  to: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+  // The 'to' prop is optional, and should be a string if provided
 };
 
 export default Button;

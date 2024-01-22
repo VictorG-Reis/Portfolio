@@ -73,7 +73,7 @@
   }
 
   .project-box:hover .project-card-button {
-    @apply animate-[animaBanner_1s_0.5s_forwards];
+    @apply animate-[animaBanner_1s_0.5s_forwards] text-white;
   }
 
   /* projects page  */

@@ -1,5 +1,6 @@
 import React from 'react';
 import costs from '../imgs/savings.svg';
+import Button from '../components/Button';
 
 function Projects() {
   return (
@@ -23,7 +24,7 @@ function Projects() {
             >
               planejamento financeiro
             </h2>
-            <button className="project-card-button " type="button">saiba mais</button>
+            <Button name="Saiba mais" to="https://github.com/VictorG-Reis/Costs_ReactJS" className="project-card-button" />
           </div>
           {/*
         <div className="project-box animationBox">
