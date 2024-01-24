@@ -20,63 +20,29 @@ function Knowledge() {
       </div>
 
       <div className="flex w-[50%] justify-center items-center my-auto mx-auto flex-wrap ">
-        <KnowledgeBox image={html} text="HTML" />
 
-        <div className="hover-transition">
-          <div className="knowledge-box">
-            <img src={css} alt="css" className="w-[100px]" />
-          </div>
-          <p className="hover-text">CSS</p>
-        </div>
+        <KnowledgeBox image={html} text="HTML" graus="-100px" animaSide="X" durationTime="500" />
+        <KnowledgeBox image={css} text="CSS" graus="-100px" animaSide="X" durationTime="600" />
+        <KnowledgeBox
+          image={javascript}
+          text="JavaScript"
+          graus="-100px"
+          animaSide="X"
+          durationTime="700"
+        />
+        <KnowledgeBox
+          image={myslq}
+          text="SQL"
+          graus="-100px"
+          animaSide="X"
+          durationTime="800"
+        />
+        <KnowledgeBox image={node} text="NodeJs" graus="-100px" animaSide="X" durationTime="900" />
+        <KnowledgeBox image={react} text="ReactJS" graus="-100px" animaSide="X" durationTime="1000" />
+        <KnowledgeBox image={redux} text="Redux" graus="-100px" animaSide="X" durationTime="1100" />
+        <KnowledgeBox image={tailwind} text="Tailwind" graus="-100px" animaSide="X" durationTime="1200" />
+        <KnowledgeBox image={typescript} text="Typescript" graus="-100px" animaSide="X" durationTime="1300" />
 
-        <div className="hover-transition">
-          <div className="knowledge-box">
-            <img src={javascript} alt="javascript" className="w-[100px]" />
-          </div>
-          <p className="hover-text">JavaScript</p>
-        </div>
-
-        <div className="hover-transition">
-          <div className="knowledge-box">
-            <img src={myslq} alt="sql" className="w-[100px]" />
-          </div>
-          <p className="hover-text">SQL</p>
-        </div>
-
-        <div className="hover-transition">
-          <div className="knowledge-box">
-            <img src={node} alt="nodeJs" className="w-[100px]" />
-          </div>
-          <p className="hover-text">NodeJS</p>
-        </div>
-
-        <div className="hover-transition">
-          <div className="knowledge-box">
-            <img src={react} alt="React" className="w-[100px]" />
-          </div>
-          <p className="hover-text">ReactJS</p>
-        </div>
-
-        <div className="hover-transition">
-          <div className="knowledge-box">
-            <img src={redux} alt="Redux" className="w-[100px]" />
-          </div>
-          <p className="hover-text">Redux</p>
-        </div>
-
-        <div className="hover-transition">
-          <div className="knowledge-box">
-            <img src={tailwind} alt="tailwind" className="w-[100px]" />
-          </div>
-          <p className="hover-text">Tailwind</p>
-        </div>
-
-        <div className="hover-transition ">
-          <div className="knowledge-box">
-            <img src={typescript} alt="typeScript" className="w-[100px]" />
-          </div>
-          <p className="hover-text">TypeScript</p>
-        </div>
       </div>
     </div>
   );

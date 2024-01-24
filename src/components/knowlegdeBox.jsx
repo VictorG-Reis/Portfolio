@@ -4,15 +4,19 @@ import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 import PropTypes from 'prop-types';
 
-function KnowledgeBox({ image, text }) {
+function KnowledgeBox({
+  image, text, graus, animaSide, durationTime,
+}) {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
 
   const props = useSpring({
     opacity: inView ? 1 : 0,
-    transform: inView ? 'translateX(0)' : 'translateX(-30px)',
-    config: { duration: 1000 },
+    transform: inView
+      ? `translate${animaSide}(0)`
+      : `translate${animaSide}(${graus})`,
+    config: { duration: durationTime },
   });
 
   return (
@@ -28,6 +32,9 @@ function KnowledgeBox({ image, text }) {
 KnowledgeBox.propTypes = {
   image: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  graus: PropTypes.string.isRequired,
+  animaSide: PropTypes.string.isRequired,
+  durationTime: PropTypes.string.isRequired,
 };
 
 export default KnowledgeBox;
