@@ -9,6 +9,7 @@ import react from '../imgs/icons8-react.svg';
 import tailwind from '../imgs/icons8-tailwind-css.svg';
 import typescript from '../imgs/icons8-typescript.svg';
 import redux from '../imgs/icons8-redux.svg';
+import KnowledgeBox from '../components/knowlegdeBox';
 
 function Knowledge() {
   return (
@@ -19,13 +20,7 @@ function Knowledge() {
       </div>
 
       <div className="flex w-[50%] justify-center items-center my-auto mx-auto flex-wrap ">
-
-        <div className="hover-transition">
-          <div className="knowledge-box">
-            <img src={html} alt="html" className="w-[100px]" />
-          </div>
-          <p className="hover-text">HTML</p>
-        </div>
+        <KnowledgeBox image={html} text="HTML" />
 
         <div className="hover-transition">
           <div className="knowledge-box">
