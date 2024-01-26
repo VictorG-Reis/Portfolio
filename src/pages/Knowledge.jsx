@@ -19,6 +19,8 @@ function Knowledge() {
         <hr className="flex justify-center items-center text-center sm:w-[80%] md:w-[50%] lg:w-[25%] h-1 mx-auto my-0 bg-white border-none rounded-3xl" />
       </div>
 
+      {/* componentizar titulo e linha  */}
+
       <div className="flex w-[50%] justify-center items-center my-auto mx-auto flex-wrap ">
 
         <KnowledgeBox image={html} text="HTML" graus="-100px" animaSide="X" durationTime="500" />
