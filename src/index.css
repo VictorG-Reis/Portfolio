@@ -27,7 +27,7 @@
   }
 
   .knowledge-box {
-    @apply h-[120px] w-[120px] mx-5 bg-white rounded-xl flex justify-center items-center my-10 hover:bg-[#adadad] transition duration-200;
+    @apply h-[120px] w-[120px] mx-5 bg-white rounded-xl flex justify-center items-center my-10 hover:bg-[#adadad] transition duration-200 hover:scale-110;
   }
   .hover-transition {
     @apply relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 rounded-md;
