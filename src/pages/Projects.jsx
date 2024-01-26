@@ -1,14 +1,14 @@
 import React from 'react';
 import costs from '../imgs/savings.svg';
 import Button from '../components/Button';
+import Header from '../components/Header';
 
 function Projects() {
   return (
     <div className="flex items-center justify-center fullScreen bg-[#13161c]">
-      <div className="flex-col text-center">
+      <div className="flex-col text-center ">
         <div className="h-[10rem] ">
-          <h1 className="text-white text-6xl py-6 sm:text-4xl">Projetos</h1>
-          <hr className="title-Bar sm:w-[80%] md:w-[50%] lg:w-[80%]" />
+          <Header title="Projetos" />
         </div>
         <div className="flex space-x-52 ">
           <div className=" project-box animationBox">

@@ -10,13 +10,13 @@ import tailwind from '../imgs/icons8-tailwind-css.svg';
 import typescript from '../imgs/icons8-typescript.svg';
 import redux from '../imgs/icons8-redux.svg';
 import KnowledgeBox from '../components/knowlegdeBox';
+import Header from '../components/Header';
 
 function Knowledge() {
   return (
-    <div className=" w-full h-[70%] bg-[#13161c] ">
+    <div className=" w-full h-[70%] bg-[#13161c]">
       <div className="text-center font-Ubuntu text-[2rem] text-white mb-[7rem] pt-[2rem] ">
-        <h1 className="text-6xl py-6 sm:text-4xl">Conhecimentos</h1>
-        <hr className="flex justify-center items-center text-center sm:w-[80%] md:w-[50%] lg:w-[25%] h-1 mx-auto my-0 bg-white border-none rounded-3xl" />
+        <Header title="Conhecimentos" />
       </div>
 
       {/* componentizar titulo e linha  */}
