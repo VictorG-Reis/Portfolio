@@ -14,9 +14,9 @@ import Header from '../components/Header';
 
 function Knowledge() {
   return (
-    <div className=" w-full h-[70%] bg-[#13161c]  flex justify-center items-center">
+    <div className=" w-full h-[70%] bg-[#13161c] ">
       <div className="flex-col text-center ">
-        <div className="h-[10rem] ">
+        <div className="h-[10rem] flex justify-center items-center ">
           <Header title="Conhecimentos" />
         </div>
         {/* componentizar titulo e linha  */}
