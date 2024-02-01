@@ -9,7 +9,12 @@ function Projects() {
 
       <div className="flex-col text-center ">
         <div className="h-[10rem] ">
-          <Header title="Projetos" />
+          <Header
+            title="Projetos"
+            graus="-100px"
+            animaSide="X"
+            durationTime="500"
+          />
         </div>
 
         <div className="flex space-x-52 ">

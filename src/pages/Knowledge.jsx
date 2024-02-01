@@ -17,9 +17,13 @@ function Knowledge() {
     <div className=" w-full h-[70%] bg-[#13161c] ">
       <div className="flex-col text-center ">
         <div className="h-[10rem] flex justify-center items-center ">
-          <Header title="Conhecimentos" />
+          <Header
+            title="Conhecimentos"
+            graus="-100px"
+            animaSide="X"
+            durationTime="200"
+          />
         </div>
-        {/* componentizar titulo e linha  */}
 
         <div className="flex w-[50%] justify-center items-center my-auto mx-auto flex-wrap ">
 
