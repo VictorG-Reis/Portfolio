@@ -6,10 +6,12 @@ import Header from '../components/Header';
 function Projects() {
   return (
     <div className="flex items-center justify-center fullScreen bg-[#13161c]">
+
       <div className="flex-col text-center ">
         <div className="h-[10rem] ">
           <Header title="Projetos" />
         </div>
+
         <div className="flex space-x-52 ">
           <div className=" project-box animationBox">
             <img src={costs} alt="costs project" className="w-[100%] h-[70%]" />

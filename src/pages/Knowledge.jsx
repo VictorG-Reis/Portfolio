@@ -14,37 +14,38 @@ import Header from '../components/Header';
 
 function Knowledge() {
   return (
-    <div className=" w-full h-[70%] bg-[#13161c]">
-      <div className="text-center font-Ubuntu text-[2rem] text-white mb-[7rem] pt-[2rem] ">
-        <Header title="Conhecimentos" />
-      </div>
+    <div className=" w-full h-[70%] bg-[#13161c]  flex justify-center items-center">
+      <div className="flex-col text-center ">
+        <div className="h-[10rem] ">
+          <Header title="Conhecimentos" />
+        </div>
+        {/* componentizar titulo e linha  */}
 
-      {/* componentizar titulo e linha  */}
+        <div className="flex w-[50%] justify-center items-center my-auto mx-auto flex-wrap ">
 
-      <div className="flex w-[50%] justify-center items-center my-auto mx-auto flex-wrap ">
+          <KnowledgeBox image={html} text="HTML" graus="-100px" animaSide="X" durationTime="500" />
+          <KnowledgeBox image={css} text="CSS" graus="-100px" animaSide="X" durationTime="600" />
+          <KnowledgeBox
+            image={javascript}
+            text="JavaScript"
+            graus="-100px"
+            animaSide="X"
+            durationTime="700"
+          />
+          <KnowledgeBox
+            image={myslq}
+            text="SQL"
+            graus="-100px"
+            animaSide="X"
+            durationTime="800"
+          />
+          <KnowledgeBox image={node} text="NodeJs" graus="-100px" animaSide="X" durationTime="900" />
+          <KnowledgeBox image={react} text="ReactJS" graus="-100px" animaSide="X" durationTime="1000" />
+          <KnowledgeBox image={redux} text="Redux" graus="-100px" animaSide="X" durationTime="1100" />
+          <KnowledgeBox image={tailwind} text="Tailwind" graus="-100px" animaSide="X" durationTime="1200" />
+          <KnowledgeBox image={typescript} text="Typescript" graus="-100px" animaSide="X" durationTime="1300" />
 
-        <KnowledgeBox image={html} text="HTML" graus="-100px" animaSide="X" durationTime="500" />
-        <KnowledgeBox image={css} text="CSS" graus="-100px" animaSide="X" durationTime="600" />
-        <KnowledgeBox
-          image={javascript}
-          text="JavaScript"
-          graus="-100px"
-          animaSide="X"
-          durationTime="700"
-        />
-        <KnowledgeBox
-          image={myslq}
-          text="SQL"
-          graus="-100px"
-          animaSide="X"
-          durationTime="800"
-        />
-        <KnowledgeBox image={node} text="NodeJs" graus="-100px" animaSide="X" durationTime="900" />
-        <KnowledgeBox image={react} text="ReactJS" graus="-100px" animaSide="X" durationTime="1000" />
-        <KnowledgeBox image={redux} text="Redux" graus="-100px" animaSide="X" durationTime="1100" />
-        <KnowledgeBox image={tailwind} text="Tailwind" graus="-100px" animaSide="X" durationTime="1200" />
-        <KnowledgeBox image={typescript} text="Typescript" graus="-100px" animaSide="X" durationTime="1300" />
-
+        </div>
       </div>
     </div>
   );
