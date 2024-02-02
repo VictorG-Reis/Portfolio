@@ -1,26 +1,45 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useSpring, animated } from 'react-spring';
+import { useInView } from 'react-intersection-observer';
 import Button from './Button';
 
 function ProjectCard({
-  image, projectName, description, bntLink,
+  image, projectName, description, bntLink, animaSide, graus, durationTime,
 }) {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const props = useSpring({
+    opacity: inView ? 1 : 0,
+    transform: inView
+      ? `translate${animaSide}(0)`
+      : `translate${animaSide}(${graus})`,
+    config: {
+      duration: durationTime,
+    },
+  });
+
   return (
-    <div className=" project-box animationBox">
-      <img src={image} alt="costs project" className="w-[100%] h-[70%]" />
-      <h1 className="h-[10%] text-center text-3xl title-Project drop-shadow-sm">{projectName}</h1>
-      <h2 className="
+    <animated.div ref={ref} style={props} className="hover-transition">
+      <div className=" project-box animationBox">
+        <img src={image} alt="costs project" className="w-[100%] h-[70%]" />
+        <h1 className="h-[10%] text-center text-3xl title-Project drop-shadow-sm">{projectName}</h1>
+        <h2 className="
               h-[10%]
               text-center
               text-xl
               subtitle-Project
               drop-shadow-sm
               "
-      >
-        {description}
-      </h2>
-      <Button name="Saiba mais" to={bntLink} className="project-card-button" />
-    </div>
+        >
+          {description}
+        </h2>
+        <Button name="Saiba mais" to={bntLink} className="project-card-button" />
+      </div>
+    </animated.div>
   );
 }
 
@@ -29,6 +48,9 @@ ProjectCard.propTypes = {
   projectName: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   bntLink: PropTypes.string.isRequired,
+  graus: PropTypes.string.isRequired,
+  animaSide: PropTypes.string.isRequired,
+  durationTime: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;
