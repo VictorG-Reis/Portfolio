@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
 
-function ProjectBox({ image, projectName, description }) {
+function ProjectCard({
+  image, projectName, description, bntLink,
+}) {
   return (
     <div className=" project-box animationBox">
       <img src={image} alt="costs project" className="w-[100%] h-[70%]" />
@@ -17,15 +19,16 @@ function ProjectBox({ image, projectName, description }) {
       >
         {description}
       </h2>
-      <Button name="Saiba mais" to="https://github.com/VictorG-Reis/Costs_ReactJS" className="project-card-button" />
+      <Button name="Saiba mais" to={bntLink} className="project-card-button" />
     </div>
   );
 }
 
-ProjectBox.propTypes = {
+ProjectCard.propTypes = {
   image: PropTypes.string.isRequired,
   projectName: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  bntLink: PropTypes.string.isRequired,
 };
 
-export default ProjectBox;
+export default ProjectCard;

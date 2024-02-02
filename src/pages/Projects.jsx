@@ -4,6 +4,8 @@ import Button from '../components/Button';
 import Header from '../components/Header';
 
 function Projects() {
+  // const githubRepositiry = 'https://github.com/VictorG-Reis/Costs_ReactJS"';
+
   return (
     <div className="flex items-center justify-center fullScreen bg-[#13161c]">
 
