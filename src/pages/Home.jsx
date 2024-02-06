@@ -24,7 +24,11 @@ function Home() {
             Full-stack developer & designer
           </h1>
           <p className="textSetup my-6 mx-12 lg:text-[1.5rem] sm:text-[1.5rem] animate-[animaBanner_1s_0.8s_forwards]">Victor Gabriel</p>
-          <Button name="linkedin" to="https://www.linkedin.com/in/dev-victor-gabriel-r/" className="button" />
+          <Button
+            name="linkedin"
+            to="https://www.linkedin.com/in/dev-victor-gabriel-r/"
+            className="button "
+          />
         </div>
       </header>
     </div>

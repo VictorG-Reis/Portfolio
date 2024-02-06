@@ -7,18 +7,18 @@ function Projects() {
   const githubRepositiry = 'https://github.com/VictorG-Reis/Costs_ReactJS';
 
   return (
-    <div className="flex items-center justify-center fullScreen bg-[#13161c]">
+    <div className="flex items-center justify-center fullScreen bg-[#13161c] overflow-hidden">
       <div className="flex-col text-center ">
         <div className="h-[10rem] ">
           <Header
             title="Projetos"
             graus="100px"
             animaSide="X"
-            durationTime="800"
+            durationTime="1300"
           />
         </div>
 
-        <div className="flex space-x-52 ">
+        <div className="flex items-center justify-center">
 
           <ProjectCard
             projectName="Costs"
@@ -27,7 +27,7 @@ function Projects() {
             bntLink={githubRepositiry}
             graus="100px"
             animaSide="X"
-            durationTime="1200"
+            durationTime="1600"
           />
 
         </div>
