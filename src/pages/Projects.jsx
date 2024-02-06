@@ -18,7 +18,7 @@ function Projects() {
           />
         </div>
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center ">
 
           <ProjectCard
             projectName="Costs"

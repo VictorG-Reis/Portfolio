@@ -22,7 +22,7 @@ function KnowledgeBox({
   return (
     <animated.div ref={ref} style={props} className="hover-transition">
       <div className="knowledge-box ">
-        <img src={image} alt={text} className="lg:w-[100px] sm:w-[50px]" />
+        <img src={image} alt={text} className="lg:w-[100px] sm:w-[47px]" />
       </div>
       <p className="hover-text">{text}</p>
     </animated.div>

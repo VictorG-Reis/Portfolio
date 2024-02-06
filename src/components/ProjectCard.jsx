@@ -26,13 +26,14 @@ function ProjectCard({
     <animated.div ref={ref} style={props} className="hover-transition">
       <div className=" project-box animationBox">
         <img src={image} alt="costs project" className="w-[100%] h-[70%]" />
-        <h1 className="h-[10%] text-center text-3xl title-Project drop-shadow-sm">{projectName}</h1>
+        <h1 className="h-[10%] text-center lg:text-3xl title-Project drop-shadow-sm sm:text-xl">{projectName}</h1>
         <h2 className="
               h-[10%]
               text-center
-              text-xl
+              lg:text-lg
               subtitle-Project
               drop-shadow-sm
+              sm:text-base
               "
         >
           {description}
