@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.0018fada.css",
-    "main.js": "/github-page/static/js/main.bd5c1842.js",
+    "main.css": "/github-page/static/css/main.e658fc88.css",
+    "main.js": "/github-page/static/js/main.0da960ce.js",
     "static/media/bg.jpg": "/github-page/static/media/bg.93183c7b76543dcc319b.jpg",
     "static/media/savings.svg": "/github-page/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
     "static/media/icons8-node-js.svg": "/github-page/static/media/icons8-node-js.840f788d9270a416af162334263a5b39.svg",
     "static/media/icons8-mysql-logo.svg": "/github-page/static/media/icons8-mysql-logo.8988c5b3f4a0c1c2d285a3e84dc07614.svg",
+    "static/media/icons8-logo-java-coffee-cup.svg": "/github-page/static/media/icons8-logo-java-coffee-cup.b0cafa0321e2dcbc1ce9cf6c44033685.svg",
     "static/media/icons8-redux.svg": "/github-page/static/media/icons8-redux.37aa6ddbd31b9f9d54059a5d9e2cbaaf.svg",
     "static/media/icons8-react.svg": "/github-page/static/media/icons8-react.494c781b446d6c153b7b75fc16885031.svg",
     "static/media/icons8-javascript.svg": "/github-page/static/media/icons8-javascript.c6c0a7260c58209b2403b638b2da4ff0.svg",
@@ -14,11 +15,11 @@
     "static/media/icons8-tailwind-css.svg": "/github-page/static/media/icons8-tailwind-css.e6ffa7781ea89d10cede53775d402c03.svg",
     "static/media/icons8-css.svg": "/github-page/static/media/icons8-css.77617ab627e4242c092c9fadb9f8d7a0.svg",
     "static/media/icons8-html.svg": "/github-page/static/media/icons8-html.b52d17a157cb57802080c19b3bd0a9c2.svg",
-    "main.0018fada.css.map": "/github-page/static/css/main.0018fada.css.map",
-    "main.bd5c1842.js.map": "/github-page/static/js/main.bd5c1842.js.map"
+    "main.e658fc88.css.map": "/github-page/static/css/main.e658fc88.css.map",
+    "main.0da960ce.js.map": "/github-page/static/js/main.0da960ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.0018fada.css",
-    "static/js/main.bd5c1842.js"
+    "static/css/main.e658fc88.css",
+    "static/js/main.0da960ce.js"
   ]
 }
