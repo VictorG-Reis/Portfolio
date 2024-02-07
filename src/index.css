@@ -27,13 +27,13 @@
   }
 
   .knowledge-box {
-    @apply lg:h-[120px] sm:h-[60px] lg:w-[120px] sm:w-[60px] mx-5 bg-white rounded-xl flex justify-center items-center my-10 hover:bg-[#adadad] transition duration-200 hover:scale-110;
+    @apply lg:h-[110px] md:h-[90px] sm:h-[70px] lg:w-[110px] md:w-[90px]  sm:w-[70px] mx-5 bg-white rounded-xl flex justify-center items-center my-10 hover:bg-[#adadad] p-[1rem] transition duration-200 hover:scale-110;
   }
   .hover-transition {
     @apply relative transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-700 rounded-md;
   }
   .hover-text {
-    @apply justify-center text-center font-semibold opacity-0 absolute lg:top-[12rem] sm:top-[8rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity ease-in-out duration-300 text-white font-Ubuntu sm:text-sm lg:text-base;
+    @apply justify-center text-center font-semibold opacity-0 absolute lg:top-[12rem] sm:top-[9rem] left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity ease-in-out duration-300 text-white font-Ubuntu sm:text-sm lg:text-base;
   }
 
   .hover-transition:hover .hover-text {
