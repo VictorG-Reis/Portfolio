@@ -25,7 +25,7 @@ function Knowledge() {
           />
         </div>
 
-        <div className="flex w-[50%] justify-center items-center my-auto mx-auto flex-wrap ">
+        <div className="flex w-[60%] justify-center items-center my-auto mx-auto flex-wrap ">
 
           <KnowledgeBox image={html} text="HTML" graus="-100px" animaSide="X" durationTime="500" />
           <KnowledgeBox image={css} text="CSS" graus="-100px" animaSide="X" durationTime="600" />

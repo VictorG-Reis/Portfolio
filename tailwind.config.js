@@ -37,7 +37,7 @@ export const theme = {
     Bitter: ['Bitter', 'serif'],
   },
   screens: {
-    sm: '359px',
+    sm: '300px',
     md: '768px',
     lg: '1024px',
   },
