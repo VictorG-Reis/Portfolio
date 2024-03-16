@@ -38,8 +38,8 @@ function ProjectCard({
         >
           {description}
         </h2>
-        <Button name="gitHub" to={GitHubLink} className="project-card-button" />
-        <Button name="Website" to={WebSiteLink} className="project-card-button" />
+        <Button name="GitHub" to={GitHubLink} className="project-card-button w-40" />
+        <Button name="Website" to={WebSiteLink} className="project-card-button w-40 mx-3" />
       </div>
     </animated.div>
   );
