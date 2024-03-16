@@ -1,5 +1,6 @@
 import React from 'react';
 import costs from '../imgs/savings.svg';
+import toDoList from '../imgs/toDoList.jpeg';
 import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
 
@@ -22,7 +23,7 @@ function Projects() {
           />
         </div>
 
-        <div className="flex items-center justify-around w-[100%] ">
+        <div className="flex items-center justify-around w-[100%] flex-col lg:flex-row ">
 
           <ProjectCard
             projectName="Costs"
@@ -38,7 +39,7 @@ function Projects() {
           <ProjectCard
             projectName="To do list"
             description="Monte uma lista de afazeres"
-            image={costs}
+            image={toDoList}
             GitHubLink={ToDoListGithub}
             WebSiteLink={ToDoListWebSite}
             graus="100px"
