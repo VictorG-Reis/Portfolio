@@ -6,10 +6,14 @@ import ProjectCard from '../components/ProjectCard';
 function Projects() {
   const githubRepositiry = 'https://github.com/VictorG-Reis/Costs_ReactJS';
 
+  const ToDoListWebSite = 'https://interface-todo-list.vercel.app/';
+  const ToDoListGithub = 'https://github.com/VictorG-Reis/interface-todoList';
+
   return (
-    <div className="flex items-center justify-center fullScreen bg-[#13161c] overflow-hidden">
-      <div className="flex-col text-center ">
-        <div className="h-[10rem] ">
+    <div className="flex items-center justify-center fullScreen bg-[#13161c] overflow-hidden ">
+
+      <div className=" text-center w-[70%] flex flex-col justify-center items-center">
+        <div className="h-[10rem] text-center ">
           <Header
             title="Projetos"
             graus="100px"
@@ -18,13 +22,25 @@ function Projects() {
           />
         </div>
 
-        <div className="flex items-center justify-center ">
+        <div className="flex items-center justify-around w-[100%] ">
 
           <ProjectCard
             projectName="Costs"
             description="Planejamento Financeiro"
             image={costs}
-            bntLink={githubRepositiry}
+            GitHubLink={githubRepositiry}
+            WebSiteLink="#"
+            graus="100px"
+            animaSide="X"
+            durationTime="1600"
+          />
+
+          <ProjectCard
+            projectName="To do list"
+            description="Monte uma lista de afazeres"
+            image={costs}
+            GitHubLink={ToDoListGithub}
+            WebSiteLink={ToDoListWebSite}
             graus="100px"
             animaSide="X"
             durationTime="1600"

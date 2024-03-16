@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 import Button from './Button';
 
 function ProjectCard({
-  image, projectName, description, bntLink, animaSide, graus, durationTime,
+  image, projectName, description, GitHubLink, WebSiteLink, animaSide, graus, durationTime,
 }) {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -38,7 +38,8 @@ function ProjectCard({
         >
           {description}
         </h2>
-        <Button name="Saiba mais" to={bntLink} className="project-card-button" />
+        <Button name="gitHub" to={GitHubLink} className="project-card-button" />
+        <Button name="Website" to={WebSiteLink} className="project-card-button" />
       </div>
     </animated.div>
   );
@@ -48,7 +49,8 @@ ProjectCard.propTypes = {
   image: PropTypes.string.isRequired,
   projectName: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  bntLink: PropTypes.string.isRequired,
+  GitHubLink: PropTypes.string.isRequired,
+  WebSiteLink: PropTypes.string.isRequired,
   graus: PropTypes.string.isRequired,
   animaSide: PropTypes.string.isRequired,
   durationTime: PropTypes.string.isRequired,
