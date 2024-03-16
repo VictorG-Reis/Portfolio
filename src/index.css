@@ -43,7 +43,7 @@
   /* projects page  */
 
   .project-box {
-    @apply lg:h-[38rem] lg:w-[25rem] sm:w-[20rem] sm:h-[29rem]  rounded-3xl bg-white p-6;
+    @apply lg:h-[38rem] lg:w-[25rem] sm:w-[15rem] sm:h-[25rem] rounded-3xl bg-white p-6 m-4;
   }
 
   .animationBox {
@@ -69,7 +69,7 @@
   }
 
   .project-card-button {
-    @apply p-[1.5] w-[12rem] h-[10%] text-center bg-black text-white rounded-[20px] border-none opacity-0;
+    @apply lg:p-[1.5] lg:w-40 lg:h-[10%] sm:w-[9rem] sm:p-[0.5rem] mb-2 text-center bg-black text-white rounded-[20px] border-none opacity-0;
   }
 
   .project-box:hover .project-card-button {

@@ -13,7 +13,7 @@ function Projects() {
   return (
     <div className="flex items-center justify-center fullScreen bg-[#13161c] overflow-hidden ">
 
-      <div className=" text-center w-[70%] flex flex-col justify-center items-center">
+      <div className=" text-center w-[70%] h-full flex flex-col justify-center items-center">
         <div className="h-[10rem] text-center ">
           <Header
             title="Projetos"
@@ -23,7 +23,7 @@ function Projects() {
           />
         </div>
 
-        <div className="flex items-center justify-around w-[100%] flex-col lg:flex-row ">
+        <div className="flex items-center justify-around lg:w-[100%] lg:h-full md:h-[50rem] flex-col lg:flex-row">
 
           <ProjectCard
             projectName="Costs"

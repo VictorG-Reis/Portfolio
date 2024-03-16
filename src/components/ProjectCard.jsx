@@ -25,10 +25,15 @@ function ProjectCard({
   return (
     <animated.div ref={ref} style={props} className="hover-transition">
       <div className=" project-box animationBox ">
-        <img src={image} alt="costs project" className="w-[100%] h-[70%]" />
-        <h1 className="h-[10%] text-center lg:text-3xl title-Project drop-shadow-sm sm:text-xl">{projectName}</h1>
+        <img
+          src={image}
+          alt="costs project"
+          className="w-[100%] lg:h-[60%] sm:h-[50%]"
+        />
+        <h1 className="lg:h-[10%] sm:h-[10%] text-center lg:text-3xl title-Project drop-shadow-sm sm:text-xl">{projectName}</h1>
         <h2 className="
-              h-[10%]
+              lg:h-[10%]
+              sm:h-[15%]
               text-center
               lg:text-lg
               subtitle-Project
@@ -38,8 +43,8 @@ function ProjectCard({
         >
           {description}
         </h2>
-        <Button name="GitHub" to={GitHubLink} className="project-card-button w-40" />
-        <Button name="Website" to={WebSiteLink} className="project-card-button w-40 mx-3" />
+        <Button name="GitHub" to={GitHubLink} className="project-card-button" />
+        <Button name="Website" to={WebSiteLink} className="project-card-button mx-4" />
       </div>
     </animated.div>
   );
