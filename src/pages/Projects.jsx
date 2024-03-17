@@ -11,7 +11,7 @@ function Projects() {
   const ToDoListGithub = 'https://github.com/VictorG-Reis/interface-todoList';
 
   return (
-    <div className="flex items-center justify-center fullScreen bg-[#13161c] overflow-hidden ">
+    <div className="flex items-center justify-center h-full w-full bg-[#13161c] overflow-hidden ">
 
       <div className=" text-center w-[70%] h-full flex flex-col justify-center items-center">
         <div className="h-[10rem] text-center ">
