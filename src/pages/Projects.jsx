@@ -33,7 +33,7 @@ function Projects() {
             WebSiteLink="#"
             graus="100px"
             animaSide="X"
-            durationTime="1600"
+            durationTime="1000"
           />
 
           <ProjectCard
@@ -44,7 +44,7 @@ function Projects() {
             WebSiteLink={ToDoListWebSite}
             graus="100px"
             animaSide="X"
-            durationTime="1600"
+            durationTime="1050"
           />
 
         </div>
