@@ -1,6 +1,6 @@
 import React from 'react';
 import costs from '../imgs/savings.svg';
-import toDoList from '../imgs/toDoList.jpeg';
+import toDoList from '../imgs/toDoList.svg';
 import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
 
