@@ -24,12 +24,20 @@ function Home() {
             Full-stack developer & designer
           </h1>
           <p className="textSetup my-6 mx-12 lg:text-[1.5rem] sm:text-[1.5rem] animate-[animaBanner_1s_0.8s_forwards]">Victor Gabriel</p>
-          <Button
-            name="linkedin"
-            to="https://www.linkedin.com/in/dev-victor-gabriel-r/"
-            className="button "
-          />
+          <div className="flex justify-around lg:w-[26rem] lg:flex-row sm:flex-col">
+            <Button
+              name="Linkedin"
+              to="https://www.linkedin.com/in/dev-victor-gabriel-r/"
+              className="button from-[#0b5b80] to-[#7e7e7e] lg:m-0 sm:m-3"
+            />
+            <Button
+              name="GitHub"
+              to="https://github.com/VictorG-Reis"
+              className="button  from-[#7e7e7e] to-[#171515]"
+            />
+          </div>
         </div>
+
       </header>
     </div>
   );
