@@ -28,7 +28,7 @@ function Home() {
             <Button
               name="Linkedin"
               to="https://www.linkedin.com/in/dev-victor-gabriel-r/"
-              className="button from-[#0b5b80] to-[#7e7e7e] lg:m-0 sm:m-3"
+              className="button from-[#0b5b80] to-[#7e7e7e] lg:m-0 sm:m-3 "
             />
             <Button
               name="GitHub"

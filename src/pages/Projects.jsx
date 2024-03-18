@@ -23,7 +23,7 @@ function Projects() {
           />
         </div>
 
-        <div className="flex items-center justify-around lg:w-[100%] lg:h-full md:h-[50rem] flex-col lg:flex-row">
+        <div className="flex items-center justify-around lg:w-[100%] lg:h-full md:h-[30rem] flex-col lg:flex-row md:flex-row">
 
           <ProjectCard
             projectName="Costs"

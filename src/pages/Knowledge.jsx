@@ -51,7 +51,6 @@ function Knowledge() {
           <KnowledgeBox image={tailwind} text="Tailwind" graus="-100px" animaSide="X" durationTime="850" />
           <KnowledgeBox image={typescript} text="Typescript" graus="-100px" animaSide="X" durationTime="900" />
           <KnowledgeBox image={java} text="Java" graus="-100px" animaSide="X" durationTime="950" />
-
         </div>
       </div>
     </div>
