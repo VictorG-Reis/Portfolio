@@ -8,7 +8,7 @@ function Footer() {
         href="https://github.com/VictorG-Reis"
         rel="noreferrer"
       >
-        Feito por Victor Gabriel .R
+        developed by Victor Gabriel .R
       </a>
     </div>
   );
