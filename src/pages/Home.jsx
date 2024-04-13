@@ -28,12 +28,12 @@ function Home() {
             <Button
               name="Linkedin"
               to="https://www.linkedin.com/in/dev-victor-gabriel-r/"
-              className="button from-[#0b5b80] to-[#7e7e7e] lg:m-0 sm:m-3 "
+              className="button from-[#f1553a] to-[#421111] lg:m-0 sm:m-3 "
             />
             <Button
               name="GitHub"
               to="https://github.com/VictorG-Reis"
-              className="button  from-[#7e7e7e] to-[#171515]"
+              className="button  from-[#f1553a] to-[#421111]"
             />
           </div>
         </div>
