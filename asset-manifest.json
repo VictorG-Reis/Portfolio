@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/github-page/static/css/main.37a94dfe.css",
-    "main.js": "/github-page/static/js/main.c621845a.js",
+    "main.css": "/github-page/static/css/main.ced7351b.css",
+    "main.js": "/github-page/static/js/main.38c96ff5.js",
     "static/media/bg.jpg": "/github-page/static/media/bg.93183c7b76543dcc319b.jpg",
     "static/media/savings.svg": "/github-page/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
     "static/media/toDoList.svg": "/github-page/static/media/toDoList.e5adf80c11b0ee3c18a7a46120b3a8eb.svg",
@@ -16,11 +16,11 @@
     "index.html": "/github-page/index.html",
     "static/media/icons8-css.svg": "/github-page/static/media/icons8-css.77617ab627e4242c092c9fadb9f8d7a0.svg",
     "static/media/icons8-html.svg": "/github-page/static/media/icons8-html.b52d17a157cb57802080c19b3bd0a9c2.svg",
-    "main.37a94dfe.css.map": "/github-page/static/css/main.37a94dfe.css.map",
-    "main.c621845a.js.map": "/github-page/static/js/main.c621845a.js.map"
+    "main.ced7351b.css.map": "/github-page/static/css/main.ced7351b.css.map",
+    "main.38c96ff5.js.map": "/github-page/static/js/main.38c96ff5.js.map"
   },
   "entrypoints": [
-    "static/css/main.37a94dfe.css",
-    "static/js/main.c621845a.js"
+    "static/css/main.ced7351b.css",
+    "static/js/main.38c96ff5.js"
   ]
 }
